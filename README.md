@@ -9,12 +9,18 @@ Gestión de catálogo y pedidos para una **cafetería colombiana de especialidad
 - **`pedidos`** (105 documentos iniciales): órdenes con `codigo_orden`, `fecha_hora`, `canal`, `estado`, `metodo_pago`, arreglo embebido `items` (con `personalizaciones`) y `total`.
 
 ## Estructura del Repositorio
-├── app.py          # Conexión a MongoDB, limpieza/carga inicial (10 productos y 105 pedidos) y ejecución secuencial de consultas
-├── consultas.py    # Menú interactivo y ejecución individual (1 al 8) de operaciones CRUD, filtros, $lookup y agregaciones
-├── capturas/       # Carpeta para almacenar las capturas de pantalla de las consultas y resultados
-│   └── .gitkeep    # Mantiene la carpeta versionada en Git mientras se agregan las imágenes
-└── README.md       # Documentación del proyecto y guía de ejecución
+├── app.py          0
+├── consultas.py    1
+├── capturas/       2
+│   └── .gitkeep    3
+└── README.md       4
 
+0. Conexión a MongoDB, limpieza/carga inicial (10 productos y 105 pedidos) y ejecución secuencial de consultas
+1. Menú interactivo y ejecución individual (1 al 8) de operaciones CRUD, filtros, $lookup y agregaciones
+2. Carpeta para almacenar las capturas de pantalla de las consultas y resultados
+3. Mantiene la carpeta versionada en Git mientras se agregan las imágenes
+4. Documentación del proyecto y guía de ejecución
+ 
 Requisitos Previos
 MongoDB ejecutándose en mongodb://localhost:27017/.
 Python 3 con el controlador pymongo instalado:
