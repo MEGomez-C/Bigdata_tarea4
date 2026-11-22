@@ -8,7 +8,7 @@ Gestión de catálogo y pedidos para una **cafetería colombiana de especialidad
 - **`productos`** (10 documentos): catálogo de bebidas y productos de panadería/repostería con `producto_id`, `nombre`, `categoria`, `precio_base` y `disponible`.
 - **`pedidos`** (105 documentos iniciales): órdenes con `codigo_orden`, `fecha_hora`, `canal`, `estado`, `metodo_pago`, arreglo embebido `items` (con `personalizaciones`) y `total`.
 
-# [Enlace a presentación online](https://ejemplo.com "Enlace a presentación online")
+# [Enlace a presentación online](https://canva.link/6kj8g5ri0k2u6r6 "Enlace a presentación online")
 
 ## Estructura del Repositorio
 ├── app.py          0
